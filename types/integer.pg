@@ -5,16 +5,16 @@ module {
 
        }
 
-       add(x,y) {
-          x + y
+       add(y) {
+          this + y
        }
 
-       multiply(x,y) {
-           x * y
+       multiply(y) {
+           this * y
        }
 
-       subtract(x,y) {
-           x - y
+       subtract(y) {
+           this - y
        }
    }
 }
