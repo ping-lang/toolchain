@@ -1,0 +1,17 @@
+module {
+    type String {        
+	new() {
+
+	}
+
+	concat(x) {
+            this = this + x
+	}
+
+	format(string,args) {
+            
+	}
+
+    }
+
+}

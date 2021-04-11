@@ -1,0 +1,16 @@
+
+module {
+    type File {
+        open(path, mode) {
+
+	}
+
+	read(size) {
+            
+	}
+
+	write(string, size) {
+
+	}
+    }
+}
