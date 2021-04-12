@@ -1,20 +1,15 @@
 
-module {
-   type Integer {
-       new() {
-
+Types = {
+   Integer = {
+       add(y) = {
        }
 
-       add(y) {
-          this + y
+       multiply(y) = {
+        
        }
 
-       multiply(y) {
-           this * y
-       }
+       subtract(y) = {
 
-       subtract(y) {
-           this - y
        }
    }
 }

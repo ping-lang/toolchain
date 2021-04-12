@@ -1,6 +1,6 @@
 
-module {
-    type Buffer {
+Io = {
+    Buffer = {
        
     }
 }

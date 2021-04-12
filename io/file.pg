@@ -1,15 +1,15 @@
 
-module {
-    type File {
-        open(path, mode) {
+Io = {
+    File = {
+        open(path, mode) = {
 
 	}
 
-	read(size) {
+	read(size) = {
             
 	}
 
-	write(string, size) {
+	write(string, size) = {
 
 	}
     }

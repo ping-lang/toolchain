@@ -1,14 +1,11 @@
-module {
-    type String {        
-	new() {
+Types = {
+    String = {        
 
+	concat(x) = {
+            this this + x
 	}
 
-	concat(x) {
-            this = this + x
-	}
-
-	format(string,args) {
+	format(string, args) = {
             
 	}
 
